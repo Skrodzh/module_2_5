@@ -1,0 +1,13 @@
+def get_matrix(n, m, velu):
+    matrix = []
+    for row in range(n):
+        matrix.append([])
+        for col in range(m):
+            matrix[row].append(velu)
+    return matrix
+result_A = get_matrix(2,2,10)
+print(result_A)
+resalt_B = get_matrix(3,5,10)
+print(resalt_B)
+resalt_C = get_matrix(4,2,13)
+print(resalt_C)
